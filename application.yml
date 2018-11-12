@@ -8,4 +8,5 @@ eureka:
 ---
 spring:
   profiles: verb
+---
 words: ran,knew,had,saw,bought
