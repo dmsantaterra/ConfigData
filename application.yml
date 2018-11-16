@@ -27,4 +27,11 @@ words: reasonable,leaky,suspicious,ordinary,unlikely
 ---
 spring:
   profiles: noun
-words: boat,book,vote,seat,backpack,partition,groundhog  
+words: boat,book,vote,seat,backpack,partition,groundhog
+
+---
+management: 
+  endpoints: 
+    web: 
+      exposure: 
+        include: 'hystrix.stream'
